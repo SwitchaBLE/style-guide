@@ -60,7 +60,7 @@ Color schemes used in apps should be similar to the system default or similar to
 Coding
 ------
 
-Like UI design, code should follow accepted best practices for its targeted platform. Code should be commented to the extent that it is useful, but in many cases, the best code is self-explanatory by being extremely modular and using highly descriptive variable and method names. All code should be open-sourced under the [MIT License](http://opensource.org/licenses/MIT) and hosted on GitHub under the [SwitchaBLE organization](https://github.com/SwitchaBLE). Git itself should be used to its fullest potential as much as possible, as should GitHub Issues. [Close issues from commits.](https://help.github.com/articles/closing-issues-via-commit-messages)
+Like UI design, code should follow accepted best practices for its targeted platform. Code should be commented to the extent that it is useful, but in many cases, the best code is self-explanatory by being extremely modular and by using highly descriptive variable and method names. All code should be open-sourced under the [MIT License](http://opensource.org/licenses/MIT) and hosted on GitHub under the [SwitchaBLE organization](https://github.com/SwitchaBLE). Git itself should be used to its fullest potential as much as possible, as should GitHub Issues. [Close issues from commits.](https://help.github.com/articles/closing-issues-via-commit-messages)
 
 Website
 -------
@@ -86,13 +86,3 @@ Official documentation should be written in LaTeX. The [preamble defining most o
 * Place figure captions below, table captions above
 * Give [tables](https://github.com/SwitchaBLE/style-guide/blob/master/LaTeX/table.tex) an outer border and an `\hline` to seperate the header
 * In most cases, link to GitHub rather than including listings
-
-Lore (by Derek A)
-------
-
-Once upon a time in a galaxy... there was a young boy named Branches.  He drew the proverbial short straw when it comes to life.  He had few friends, and even fewer non-Vneck t-shirts.  One day, when Drew was riding his bike into to town to get a hipster coffee, a dark and mysterious Wizard appeared on the road.  
-
-"Branches, I need your aid," said the wizard.  
-"I am on a very important quest to save the world from the Arduino master race.  These vicious blood-sucking mongoloids use powerful mind-control to conquer entire EE departments.  Only you can help."
-
-Drew pulled up his corduroy shorts and grabbed the wizards hand.
