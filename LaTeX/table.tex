@@ -1,0 +1,18 @@
+% Example of table formatting %
+
+\begin{table}[H]
+    \caption[Project Budget]{Project Budget}
+    \begin{tabu}  to \textwidth {|   X[2,l] 
+                                     X[1,r]
+                                 |}
+      \hline
+      \textbf{Part Description}   & \textbf{Extended Price} \\ \hline
+      nRF51822 Dev. Board         & \$99                    \\
+      Printed Circuit Boards      & \$30                    \\
+      Board Components            & \$40                    \\
+      3D Printed Enclosure Pieces & \$20                    \\
+      Overhead                    & \$63.20                 \\ \hline
+      \textbf{Total}              & \textbf{\$252.20}       \\ \hline
+      
+    \end{tabu}
+\end{table}

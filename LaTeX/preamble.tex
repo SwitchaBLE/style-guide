@@ -1,0 +1,50 @@
+\documentclass[12pt,a4paper]{article}
+
+\usepackage[pdftex]{graphicx}
+\usepackage[english]{babel}
+\usepackage[font=small,format=plain,labelfont=bf,up]{caption}
+\usepackage{setspace}
+\usepackage[protrusion=true,expansion=true]{microtype}
+\usepackage{mathtools}
+\usepackage{gensymb}
+\usepackage{siunitx}
+\usepackage{float}
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage{paralist}
+\usepackage{verbatim}
+\usepackage{subfigure}
+\usepackage[capitalize]{cleveref}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{url}
+\usepackage{textcomp}
+\usepackage{tabu}
+\usepackage[toc,page]{appendix}
+\usepackage{listings}
+\usepackage[parfill]{parskip}
+
+\newif\if@mainmatter \@mainmattertrue
+\newcommand\frontmatter{%
+  \cleardoublepage
+  \@mainmatterfalse
+  \pagenumbering{roman}}
+\newcommand\mainmatter{%
+  \cleardoublepage
+  \@mainmattertrue
+  \pagenumbering{arabic}}
+\newcommand{\bluetooth}{\textit{Bluetooth}\textsuperscript{\textregistered}}
+\newcommand{\code}[1]{\texttt{#1}}
+
+\makeatletter
+\makeatother
+\setdescription{leftmargin=\parindent,labelindent=\parindent}
+\titlespacing\subsection{0pt}{\parskip}{0pt}
+\titlespacing\subsubsection{0pt}{20pt}{0pt}
+\titleformat{\subsubsection}{\small\bfseries}{\thesection}{1em}{}
+\setlength{\parskip}{\baselineskip}
+\lstset{basicstyle=\scriptsize\ttfamily}
+\widowpenalty=10000
+\clubpenalty=10000
+\numberwithin{figure}{section}
+\numberwithin{table}{section}
