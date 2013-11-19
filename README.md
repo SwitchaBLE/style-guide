@@ -90,7 +90,7 @@ Official documentation should be written in LaTeX. The [preamble defining most o
 Lore (by Derek A)
 ------
 
-One upon a time in a galaxy... there was a young boy name Branches.  He drew the proverbial short straw when it comes to life.  He had few friends, and even fewer non-Vneck t-shirts.  One day, when Drew was riding his bike into to town to get a hipster coffee, a dark and mysterious Wizard appeared on the road.  
+Once upon a time in a galaxy... there was a young boy named Branches.  He drew the proverbial short straw when it comes to life.  He had few friends, and even fewer non-Vneck t-shirts.  One day, when Drew was riding his bike into to town to get a hipster coffee, a dark and mysterious Wizard appeared on the road.  
 
 "Branches, I need your aid," said the wizard.  
 "I am on a very important quest to save the world from the Arduino master race.  These vicious blood-sucking mongoloids use powerful mind-control to conquer entire EE departments.  Only you can help."
