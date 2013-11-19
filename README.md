@@ -27,14 +27,14 @@ The word &ldquo;SwitchaBLE&rdquo; should always be written in title case, with &
 The Logo
 --------
 
-Scalar, vector, and HTML/CSS formats of the official SwitchaBLE logo can be found in this repository in the [Logo subfolder of the Graphics folder](https://github.com/SwitchaBLE/style-guide/Graphics/Logo). The font used for the &ldquo;SwitchaBLE&rdquo; text is Open Sans Condensed at a weight of 700 with 90% line-height. The font used for &ldquo;Auburn University Senior Design&rdquo; is Open Sans Condensed at a weight of 300 with 140% line-height, at 28% the size of the &ldquo;SwitchaBLE&rdquo; text.
+Scalar, vector, and HTML/CSS formats of the official SwitchaBLE logo can be found in this repository in the [Logo subfolder of the Graphics folder](https://github.com/SwitchaBLE/style-guide/tree/master/Graphics/Logo). The font used for the &ldquo;SwitchaBLE&rdquo; text is Open Sans Condensed at a weight of 700 with 90% line-height. The font used for &ldquo;Auburn University Senior Design&rdquo; is Open Sans Condensed at a weight of 300 with 140% line-height, at 28% the size of the &ldquo;SwitchaBLE&rdquo; text.
 
 Emblems and Icons
 -----------------
 
-Scalar, vector, and HTML/CSS formats of the SwitchaBLE emblem can be found in this repository in the [Emblem subfolder of the Graphics folder](https://github.com/SwitchaBLE/style-guide/Graphics/Emblem). The emblem should be used in branding situations where the full logo is too large or too detailed. Examples include website navigation bars, notification icons, and labels on small hardware components. The font used in the emblem is Open Sans Condensed at a weight of 700.
+Scalar, vector, and HTML/CSS formats of the SwitchaBLE emblem can be found in this repository in the [Emblem subfolder of the Graphics folder](https://github.com/SwitchaBLE/style-guide/tree/master/Graphics/Emblem). The emblem should be used in branding situations where the full logo is too large or too detailed. Examples include website navigation bars, notification icons, and labels on small hardware components. The font used in the emblem is Open Sans Condensed at a weight of 700.
 
-Relevant formats of the Android and iOS icons can also be found [in this repository]((https://github.com/SwitchaBLE/style-guide/Graphics/Icons). These icons were designed according to common icon styles for their respective platforms. App icons should always be resized and resampled to standard sizes for all supported devices. The app icons should not be used outside of the mobile devices for which they were intended.
+Relevant formats of the Android and iOS icons can also be found [in this repository](https://github.com/SwitchaBLE/style-guide/tree/master/Graphics/Icons). These icons were designed according to common icon styles for their respective platforms. App icons should always be resized and resampled to standard sizes for all supported devices. The app icons should not be used outside of the mobile devices for which they were intended.
 
 The iOS app also uses two tab bar icons, designed to match the style of Apple&rsquo;s
 
@@ -72,7 +72,7 @@ The website should, in its final state, be supported on all modern browsers at t
 Documentation
 -------------
 
-Official documentation should be written in LaTeX. The [preamble defining most of the styles](https://github.com/SwitchaBLE/style-guide/LaTeX) is included here, but in general:
+Official documentation should be written in LaTeX. The [preamble defining most of the styles](https://github.com/SwitchaBLE/style-guide/blob/master/LaTeX/preamble.tex) is included here, but in general:
 
 * Use `\documentclass[12pt,a4paper]{article}`
 * Keep the default Computer Modern font
@@ -84,5 +84,5 @@ Official documentation should be written in LaTeX. The [preamble defining most o
 * Typeset all code snippets and variable/class/method names in `\texttt` (use `\code`)
 * Include captions on all figures and tables
 * Place figure captions below, table captions above
-* Give tables an outer border and an `\hline` to seperate the header
+* Give [tables](https://github.com/SwitchaBLE/style-guide/blob/master/LaTeX/table.tex) an outer border and an `\hline` to seperate the header
 * In most cases, link to GitHub rather than including listings
