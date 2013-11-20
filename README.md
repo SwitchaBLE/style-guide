@@ -76,6 +76,7 @@ Official documentation should be written in LaTeX. The [preamble defining most o
 
 * Use `\documentclass[12pt,a4paper]{article}`
 * Keep the default Computer Modern font
+* Use the custom `\bluetooth` and `\ble` commands
 * Use a title page
 * Have a table of contents
 * Have a list of figures
@@ -83,6 +84,7 @@ Official documentation should be written in LaTeX. The [preamble defining most o
 * Don&rsquo;t indent paragraphs, but give them a bottom margin
 * Typeset all code snippets and variable/class/method names in `\texttt` (use `\code`)
 * Include captions on all figures and tables
+* Use sentence fragments without periods in captions
 * Place figure captions below, table captions above
 * Give [tables](https://github.com/SwitchaBLE/style-guide/blob/master/LaTeX/table.tex) an outer border and an `\hline` to seperate the header
 * In most cases, link to GitHub rather than including listings

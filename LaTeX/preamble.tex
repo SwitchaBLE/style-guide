@@ -24,6 +24,7 @@
 \usepackage{listings}
 \usepackage[parfill]{parskip}
 
+\makeatletter
 \newif\if@mainmatter \@mainmattertrue
 \newcommand\frontmatter{%
   \cleardoublepage
@@ -33,11 +34,12 @@
   \cleardoublepage
   \@mainmattertrue
   \pagenumbering{arabic}}
+\makeatother
+
 \newcommand{\bluetooth}{\textit{Bluetooth}\textsuperscript{\textregistered}}
+\newcommand{\ble}{\bluetooth textit{low energy}}
 \newcommand{\code}[1]{\texttt{#1}}
 
-\makeatletter
-\makeatother
 \setdescription{leftmargin=\parindent,labelindent=\parindent}
 \titlespacing\subsection{0pt}{\parskip}{0pt}
 \titlespacing\subsubsection{0pt}{20pt}{0pt}
